@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+packages = ["va_legislature_datasette"]
+
+[tool.setuptools.package-data]
+"va_legislature_datasette.lis_data" = ["*.csv"]
+
+[project]
+name = "va-legislature-datasette"
+authors = [
+    { name = "Jonny Fuller" }
+]
+version = "2025.20.01a"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+dependencies = [
+    "datasette",
+]
+classifiers = [
+    "Framework :: Datasette",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Database",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+]
+license = { text = "Apache License, Version 2.0"}
+
+[project.scripts]
+va-lis = "va_legislature_datasette.load:load"
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
