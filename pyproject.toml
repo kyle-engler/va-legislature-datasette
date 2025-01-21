@@ -16,7 +16,7 @@ authors = [
 ]
 version = "2025.20.01a"
 readme = { file = "README.md", content-type = "text/markdown" }
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 dependencies = [
     "datasette",
 ]
@@ -31,6 +31,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.7",
 ]
 license = { text = "Apache License, Version 2.0"}
 

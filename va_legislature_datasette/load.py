@@ -1,5 +1,6 @@
 import contextlib
 import csv
+import sys
 from csv import excel
 from datetime import date
 from enum import Enum
@@ -191,16 +192,29 @@ def rows_from_file(file_name: str) -> Iterable[Dict]:
             yield data
 
 
-@contextlib.contextmanager
-def open_resource(file_name: str):
-    """
-    Use the recommended 3.11+ method for opening package data.
+if 9 <= sys.version_info.minor:
 
-    I'm not a fan. This reads much worse than the old style!
-    """
-    # noinspection PyTypeChecker
-    with resources.as_file(resources.files(lis_data).joinpath(file_name)) as resource:
-        yield resource
+    @contextlib.contextmanager
+    def open_resource(file_name: str):
+        """
+        Use the recommended 3.11+ method for opening package data.
+
+        I'm not a fan. This reads much worse than the old style!
+        """
+        # noinspection PyTypeChecker
+        with resources.as_file(
+            resources.files(lis_data).joinpath(file_name)
+        ) as resource:
+            yield resource
+
+else:
+
+    @contextlib.contextmanager
+    def open_resource(file_name: str):
+        """Use the pre 3.9 API!"""
+        # noinspection PyTypeChecker
+        with resources.path(lis_data, file_name) as resource:
+            yield resource
 
 
 def generate_vote_data() -> Iterator[Dict]:
