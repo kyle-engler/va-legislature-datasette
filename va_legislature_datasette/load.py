@@ -1,20 +1,15 @@
 import contextlib
 import csv
-import sys
 from csv import excel
 from datetime import date
 from enum import Enum
 from importlib import resources
 from itertools import zip_longest
-from typing import Iterable, Dict
-from typing import Iterator
+from typing import Dict, Iterable, Iterator
 
-from sqlite_utils import Database
-from sqlite_utils import recipes
-from sqlite_utils.utils import (
-    Format,
-    rows_from_file as rows_from_file_implementation,
-)
+from sqlite_utils import Database, recipes
+from sqlite_utils.utils import Format
+from sqlite_utils.utils import rows_from_file as rows_from_file_implementation
 
 from va_legislature_datasette import lis_data
 
@@ -192,29 +187,16 @@ def rows_from_file(file_name: str) -> Iterable[Dict]:
             yield data
 
 
-if 9 <= sys.version_info.minor:
+@contextlib.contextmanager
+def open_resource(file_name: str):
+    """
+    Use the recommended 3.11+ method for opening package data.
 
-    @contextlib.contextmanager
-    def open_resource(file_name: str):
-        """
-        Use the recommended 3.11+ method for opening package data.
-
-        I'm not a fan. This reads much worse than the old style!
-        """
-        # noinspection PyTypeChecker
-        with resources.as_file(
-            resources.files(lis_data).joinpath(file_name)
-        ) as resource:
-            yield resource
-
-else:
-
-    @contextlib.contextmanager
-    def open_resource(file_name: str):
-        """Use the pre 3.9 API!"""
-        # noinspection PyTypeChecker
-        with resources.path(lis_data, file_name) as resource:
-            yield resource
+    I'm not a fan. This reads much worse than the old style!
+    """
+    # noinspection PyTypeChecker
+    with resources.as_file(resources.files(lis_data).joinpath(file_name)) as resource:
+        yield resource
 
 
 def generate_vote_data() -> Iterator[Dict]:

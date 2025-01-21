@@ -40,5 +40,7 @@ va-lis = "va_legislature_datasette.load:load"
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "black",
+    "isort"
 ]

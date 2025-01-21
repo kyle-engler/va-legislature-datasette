@@ -1,6 +1,6 @@
 import pytest
 
-from va_legislature_datasette.load import rows_from_file, generate_vote_data
+from va_legislature_datasette.load import generate_vote_data, rows_from_file
 
 
 @pytest.mark.parametrize(
