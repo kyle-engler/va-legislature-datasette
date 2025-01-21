@@ -15,11 +15,11 @@ To easily open source the raw data provided by the
 
 ## Local Developer Install
 ```cmd
-python -m pip install -e . '[dev]'
+python -m pip install -e .'[dev]'
 ```
 To run the test kit
 ```cmd
-pytest tests.py
+python -m pytest tests.py
 ```
 
 ## Usage
@@ -27,9 +27,13 @@ To build the SQLite database after installing the project use the CLI command
 ```cmd
 va-lis
 ```
+If you receive a `command not found` error, try restarting your shell.
+```cmd
+exec "$SHELL"
+```
 This will build the SQLite database!
 
 Then to run the app locally
 ```cmd
-datasette lis.db -o
+python -m datasette lis.db -o
 ```
