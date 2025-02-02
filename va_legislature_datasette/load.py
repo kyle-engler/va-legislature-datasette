@@ -35,6 +35,7 @@ def load():
     load_subdocket()
     load_summaries()
     load_vote_statements()
+    load_fiscal_impact_statements()
 
 
 def load_members():
@@ -86,7 +87,9 @@ def load_bills():
         ],
         fn=recipes.parsedate,
         output_type=date,
-    )
+    ).enable_fts(
+        ["Bill_description"], replace=True
+    ).optimize()
 
 
 def load_bill_subjects():
@@ -217,7 +220,9 @@ def load_summaries():
         conversions={
             "SUMMARY_DOCID": Conversion.Trim.value,
         },
-    )
+    ).enable_fts(
+        ["SUMMARY_TEXT"], replace=True
+    ).optimize()
 
 
 def load_vote_statements():
@@ -243,6 +248,25 @@ def load_vote_statements():
         },
     ).convert(
         "Vote_Date", fn=recipes.parsedatetime
+    )
+
+
+def load_fiscal_impact_statements():
+    db.table("fiscal_impact_statements").create(
+        # The CSVs header is poorly formed so we need to include the
+        # whitespace in the column names and then relabel!
+        columns={
+            "HST_BILNO": str,
+            ' "HST_REFID"': str,
+            ' "HST_URL"': str,
+        },
+        replace=True,
+        foreign_keys=[
+            ("HST_BILNO", "bills", "Bill_id"),
+            (' "HST_REFID"', "history", "History_refid"),
+        ],
+    ).insert_all(rows_from_file("FiscalImpactStatements.csv")).transform(
+        rename={' "HST_REFID"': "HST_REFID", ' "HST_URL"': "HST_URL"}
     )
 
 
