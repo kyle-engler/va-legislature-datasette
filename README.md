@@ -35,5 +35,5 @@ This will build the SQLite database!
 
 Then to run the app locally
 ```cmd
-python -m datasette lis.db -o
+python -m datasette -m metadata.yml -o lis.db
 ```

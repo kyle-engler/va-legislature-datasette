@@ -1,0 +1,21 @@
+title: "Virginia Legislature Information Datasette"
+description: >-
+  The VA LIS system publishes CSV daily dumps. This datasette
+  shows the latest version.
+license: APL 2.0
+source_url: https://lis.virginia.gov/home
+databases:
+  lis:
+    tables:
+      members:
+        label_column: MBR_NAME
+      committees:
+        label_column: COM_NAME
+      bills:
+        label_column: Bill_description
+      summaries:
+        plugins:
+          datasette-render-html:
+            columns:
+              - SUMMARY_TEXT
+

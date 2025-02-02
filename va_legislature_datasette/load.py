@@ -1,7 +1,7 @@
 import contextlib
 import csv
 from csv import excel
-from datetime import date
+from datetime import date, datetime
 from enum import Enum
 from importlib import resources
 from itertools import zip_longest
@@ -30,6 +30,11 @@ def load():
     load_parent_child_subjects()
     load_docket()
     load_history()
+    load_sponsors()
+    load_subcommittee_members()
+    load_subdocket()
+    load_summaries()
+    load_vote_statements()
 
 
 def load_members():
@@ -138,10 +143,6 @@ def load_history():
 
 
 def load_sponsors():
-    """
-    Todo this needs work because PATRON TYPE field is malforemed,
-    the source doesn't properly escape the quotes in the field value
-    """
     db.table("sponsors").create(
         columns={
             "MEMBER_NAME": str,
@@ -150,16 +151,99 @@ def load_sponsors():
             "PATRON_TYPE": str,
         },
         replace=True,
-        foreign_keys=[("MEMBER_ID", "members", "MBR_MBRNO")],
+        foreign_keys=[
+            ("MEMBER_ID", "members", "MBR_MBRNO"),
+            ("BILL_NUMBER", "bills", "Bill_id"),
+        ],
+    ).insert_all(
+        rows_from_file("Sponsors.csv"),
+        conversions={
+            "MEMBER_NAME": Conversion.Trim.value,
+        },
     )
-    # Todo
-    # .insert_all(
-    #     rows_from_file("Sponsors.csv"),
-    #     conversions={
-    #         "MEMBER_NAME": Conversion.Trim.value,
-    #         "History_refid": Conversion.Trim.value
-    #     },
-    # )
+
+
+def load_subcommittee_members():
+    """Many-to-many bridge table of committee to subcommittee membership"""
+    db.table("subcommittee_members").create(
+        columns={
+            "CHAMBER": str,
+            "COMMITTEE_NUMBER": str,
+            "SUBCOMMITTEE_NUMBER": str,
+            "MEMBER_NUMBER": str,
+        },
+        replace=True,
+        foreign_keys=[
+            ("COMMITTEE_NUMBER", "committees", "COM_COMNO"),
+            ("MEMBER_NUMBER", "members", "MBR_MBRNO"),
+        ],
+    ).insert_all(
+        rows_from_file("SubCommitteeMembers.csv"),
+    )
+
+
+def load_subdocket():
+    db.table("subdocket").create(
+        columns={
+            "Com_no": str,
+            "Sub_no": str,
+            "Doc_date": date,
+            "Bill_no": str,
+        },
+        replace=True,
+        foreign_keys=[
+            ("Com_no", "committees", "COM_COMNO"),
+            ("Bill_no", "bills", "Bill_id"),
+        ],
+    ).insert_all(
+        rows_from_file("SUBDOCKET.csv"),
+    )
+
+
+def load_summaries():
+    db.table("summaries").create(
+        columns={
+            "SUM_BILNO": str,
+            "SUMMARY_DOCID": str,
+            "SUMMARY_TYPE": str,
+            "SUMMARY_TEXT": str,  # Note this is HTML text
+        },
+        replace=True,
+        foreign_keys=[
+            ("SUM_BILNO", "bills", "Bill_id"),
+        ],
+    ).insert_all(
+        rows_from_file("Summaries.csv"),
+        conversions={
+            "SUMMARY_DOCID": Conversion.Trim.value,
+        },
+    )
+
+
+def load_vote_statements():
+    db.table("vote_statements").create(
+        columns={
+            "Bill_ID": str,
+            "History_RefID": str,
+            "Vote_Date": datetime,
+            "Legislator_ID": str,
+            "Recorded_Vote": str,
+            "Vote_Statement": str,
+        },
+        replace=True,
+        foreign_keys=[
+            ("Bill_ID", "bills", "Bill_id"),
+            ("History_RefID", "history", "History_refid"),
+            ("Legislator_ID", "members", "MBR_MBRNO"),
+        ],
+    ).insert_all(
+        rows_from_file("VoteStatements.csv"),
+        conversions={
+            "SUMMARY_DOCID": Conversion.Trim.value,
+        },
+    ).convert(
+        "Vote_Date", fn=recipes.parsedatetime
+    )
 
 
 def rows_from_file(file_name: str) -> Iterable[Dict]:
@@ -216,10 +300,8 @@ def generate_vote_data() -> Iterator[Dict]:
         with open(resource, newline="") as f:
             reader = csv.reader(f)
             for row in reader:
-                # For reasons, I don't yet understand, a vote row can have an id without any key value pairs.
-                # SQLite doesn't treat nulls as equal in unique constraints, so best to just skip
-                # vote rows that don't have any members participating at all.
                 history_refid, *rest = row
+                # Skip if no data!
                 if not rest:
                     continue
                 for member_number, vote_status in grouper(rest, 2, incomplete="strict"):

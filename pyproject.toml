@@ -19,6 +19,7 @@ readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.7"
 dependencies = [
     "datasette",
+    "datasette-render-html",
     "sqlite_utils",
 ]
 classifiers = [
