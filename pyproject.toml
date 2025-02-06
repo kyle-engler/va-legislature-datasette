@@ -39,6 +39,7 @@ license = { text = "Apache License, Version 2.0"}
 
 [project.scripts]
 va-lis = "va_legislature_datasette.load:load"
+download-csv = "va_legislature_datasette.extract:download_all_files"
 
 [project.optional-dependencies]
 dev = [
