@@ -15,12 +15,14 @@ jobs:
     - name: Build project
       id: build
       run: |
-        rm va_legislature_datasette/lis_data/*.csv
         python -m pip install -e .[dev]
         pytest tests
     - name: Commit and Push Changes
       if: steps.build.outcome == 'success'
       run: |
+        rm va_legislature_datasette/lis_data/*.csv
+        download-csv
+        
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
