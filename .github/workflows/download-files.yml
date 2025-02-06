@@ -1,8 +1,8 @@
 name: Download Files
 
-on: [push]
-  # schedule:
-  #   - cron: '35 * * * *'
+on:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -16,13 +16,12 @@ jobs:
       id: build
       run: |
         python -m pip install -e .[dev]
+        rm va_legislature_datasette/lis_data/*.csv
+        download-csv
         pytest tests
     - name: Commit and Push Changes
       if: steps.build.outcome == 'success'
-      run: |
-        rm va_legislature_datasette/lis_data/*.csv
-        download-csv
-        
+      run: |        
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
