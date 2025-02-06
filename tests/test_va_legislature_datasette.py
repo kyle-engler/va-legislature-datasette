@@ -94,3 +94,7 @@ def test_can_async_source_members_csv(
 @pytest.mark.integration
 def test_async_can_download_all_files():
     download_all_files()
+
+@pytest.mark.integration
+def test_this_will_fail():
+    raise ValueError('This should fail')

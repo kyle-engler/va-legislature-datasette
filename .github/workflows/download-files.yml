@@ -14,8 +14,9 @@ jobs:
       uses: actions/checkout@v4
     - name: Build project
       run: |
-        python -m pip install -e .
-        download-csv
+        rm va_legislature_datasette/lis_data/*.csv
+        python -m pip install -e .[dev]
+        pytest tests
     - name: Commit and Push Changes
       run: |
         git config --global user.name "${{ github.actor }}"
@@ -24,3 +25,4 @@ jobs:
         git add va_legislature_datasette/lis_data/*.csv
         git commit -m 'Update downloaded CSV files'
         git push
+        rm va_legislature_datasette/lis_data/*.csv
