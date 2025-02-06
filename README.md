@@ -1,4 +1,5 @@
 # VA Legislature Datasette
+[![Download Files](https://github.com/kyle-engler/va-legislature-datasette/actions/workflows/download-files.yml/badge.svg)](https://github.com/kyle-engler/va-legislature-datasette/actions/workflows/download-files.yml)
 ## Purpose
 To easily open source the raw data provided by the
 [Virginia Legislative Information System](https://lis.virginia.gov/home).
