@@ -1,6 +1,8 @@
 name: Download Files
 
-on: [push]
+on:
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   build:
