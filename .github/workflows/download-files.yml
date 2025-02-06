@@ -1,0 +1,28 @@
+name: Download Files
+
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Build project
+      run: |
+        python -m pip install -e .
+        download-csv
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+        git fetch
+        git add va_legislature_datasette/lis_data/*.csv
+        git commit -m 'Update downloaded CSV files'
+        git push
+        rm va_legislature_datasette/lis_data/*.csv
