@@ -39,8 +39,10 @@ jobs:
 
         # Check if output contains "nothing to commit, working tree clean"
         if echo "$output" | grep -q "nothing to commit, working tree clean"; then
-            # Nothing to commit, so don't push
+          # Nothing to commit, so don't push
+          echo Nothing to commit
         else
-            git push
+          echo Pushing
+          git push
         fi
         rm va_legislature_datasette/lis_data/*.csv
