@@ -2,7 +2,7 @@ name: Download Files and Build Project
 
 on:
   schedule:
-    - cron: '50 * * * *'
+    - cron: "59 * * * *"
 
 jobs:
   build:
@@ -25,6 +25,7 @@ jobs:
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
+        git fetch
         git add va_legislature_datasette/lis_data/*.csv
         git commit -m 'Update downloaded CSV files'
         git push
