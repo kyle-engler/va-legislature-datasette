@@ -1,8 +1,8 @@
-name: Download Files
+name: Download Files and Build Project
 
 on:
   schedule:
-    - cron: '35 * * * *'
+    - cron: '50 * * * *'
 
 jobs:
   build:
@@ -13,7 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Build project
-
       id: build
       run: |
         python -m pip install -e .[dev]
