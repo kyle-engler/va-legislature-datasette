@@ -14,10 +14,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - uses: actions/setup-python@v5
+      id: setup-python
       with:
         python-version: '3.13'
         cache: 'pip' # caching pip dependencies
-    - run: pip install -e '.[test]'
+        cache-dependency-path: pyproject.toml
+    - run: echo '${{ steps.setup-python.outputs.cache-hit }}' # true if cache-hit occurred on the primary key
     - name: Build project
       id: build
       run: |
