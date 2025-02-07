@@ -1,8 +1,9 @@
 name: Download Files and Build Project
 
 on:
+  push:
   schedule:
-    - cron: "59 * * * *"
+    - cron: "0 * * * *"
 
 jobs:
   build:
