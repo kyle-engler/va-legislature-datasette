@@ -24,24 +24,27 @@ jobs:
         rm va_legislature_datasette/lis_data/*.csv
         download-csv
         python -m pytest tests
+        ls va_legislature_datasette/lis_data/
     - name: Commit and Push Changes
       if: steps.build.outcome == 'success'
       run: |        
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
+        echo fetching
         git fetch
+        ls va_legislature_datasette/lis_data/
         git add va_legislature_datasette/lis_data/*.csv
         
         # Run git commit and capture both output and exit code
         output=$(git commit -m "Update downloaded CSV files" 2>&1)
         exit_code=$?
+        echo "$output"  # Print the original output
 
         # Check if output contains "nothing to commit, working tree clean"
         if echo "$output" | grep -q "nothing to commit, working tree clean"; then
             # Nothing to commit, so don't push
         else
-            echo "$output"  # Print the original output
             git push
         fi
         rm va_legislature_datasette/lis_data/*.csv
