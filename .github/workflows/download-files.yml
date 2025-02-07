@@ -13,37 +13,26 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      id: setup-python
+      with:
+        python-version: '3.13'
     - name: Build project
       id: build
       run: |
-        pip install -e '.[test]'
+        python -m pip install -e '.[test]'
         rm va_legislature_datasette/lis_data/*.csv
         download-csv
-        pytest tests
-        ls va_legislature_datasette/lis_data/
+        python -m pytest tests
     - name: Commit and Push Changes
       if: steps.build.outcome == 'success'
       run: |        
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-        echo fetching
         git fetch
-        ls va_legislature_datasette/lis_data/
-        git add va_legislature_datasette/lis_data/*.csv
+        git add va_legislature_datasette/lis_data/*.csv || true
+        git commit -m 'Update downloaded CSV files' || true
         
-        # Run git commit and capture both output and exit code
-        output=$(git commit -m "Update downloaded CSV files" 2>&1)
-        exit_code=$?
-        echo "$output"  # Print the original output
-
-        # Check if output contains "nothing to commit, working tree clean"
-        if echo "$output" | grep -q "nothing to commit, working tree clean"; then
-          # Nothing to commit, so don't push
-          echo Nothing to commit
-        else
-          echo Pushing
-          git push
-        fi
+        git push
         rm va_legislature_datasette/lis_data/*.csv
-        
