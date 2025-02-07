@@ -33,5 +33,15 @@ jobs:
         git fetch
         git add va_legislature_datasette/lis_data/*.csv
         git commit -m 'Update downloaded CSV files'
-        git push
+        # Run git commit and capture both output and exit code
+        output=$(git commit -m "Your commit message" 2>&1)
+        exit_code=$?
+
+        # Check if output contains "nothing to commit, working tree clean"
+        if echo "$output" | grep -q "nothing to commit, working tree clean"; then
+            # Nothing to commit, so don't push
+        else
+            echo "$output"  # Print the original output
+            git push
+        fi
         rm va_legislature_datasette/lis_data/*.csv
