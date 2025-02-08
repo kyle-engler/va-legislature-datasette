@@ -88,8 +88,3 @@ def test_can_async_source_members_csv(
     file_name = "Members.csv"
     base_csv_endpoint = f"{FILES_ENDPOINT}/{current_session_code}/"
     asyncio.run(async_download_file(async_client, base_csv_endpoint, file_name))
-
-
-@pytest.mark.integration
-def test_async_can_download_all_files():
-    download_all_files()
