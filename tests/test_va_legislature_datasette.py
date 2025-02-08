@@ -6,7 +6,6 @@ import pytest
 
 from va_legislature_datasette.extract import (FILES_ENDPOINT,
                                               async_download_file,
-                                              download_all_files,
                                               legislative_session_identifier)
 from va_legislature_datasette.load import (generate_vote_data, open_resource,
                                            rows_from_file)
@@ -89,8 +88,3 @@ def test_can_async_source_members_csv(
     file_name = "Members.csv"
     base_csv_endpoint = f"{FILES_ENDPOINT}/{current_session_code}/"
     asyncio.run(async_download_file(async_client, base_csv_endpoint, file_name))
-
-
-@pytest.mark.integration
-def test_async_can_download_all_files():
-    download_all_files()

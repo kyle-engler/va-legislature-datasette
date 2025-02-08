@@ -1,0 +1,40 @@
+name: Download Files
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      id: setup-python
+      with:
+        python-version: '3.13'
+    - name: Build project
+      id: build
+      run: |
+        pip install -e '.[test]'
+        rm va_legislature_datasette/lis_data/*.csv
+        download-csv
+        pytest tests
+    - name: Commit and Push Changes
+      if: steps.build.outcome == 'success'
+      run: |        
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+        git fetch
+        git add va_legislature_datasette/lis_data/*.csv || true
+        git commit -m 'Update downloaded CSV files' || true
+        
+        git push
+        rm va_legislature_datasette/lis_data/*.csv
