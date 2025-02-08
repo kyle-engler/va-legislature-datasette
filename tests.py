@@ -6,7 +6,6 @@ import pytest
 
 from va_legislature_datasette.extract import (FILES_ENDPOINT,
                                               async_download_file,
-                                              download_all_files,
                                               legislative_session_identifier)
 from va_legislature_datasette.load import (generate_vote_data, open_resource,
                                            rows_from_file)

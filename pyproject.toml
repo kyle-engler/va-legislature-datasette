@@ -47,3 +47,6 @@ dev = [
     "black",
     "isort"
 ]
+test = [
+    "pytest"
+]
