@@ -1,0 +1,9 @@
+{% extends "default:row.html" %}
+
+{% block content %}
+
+<a target="_blank" href="https://lis.virginia.gov/bill-details/20251/{{rows[0]['Bill_id']}}">View full bill on LIS</a>
+
+{{ super() }}
+
+{% endblock %}
