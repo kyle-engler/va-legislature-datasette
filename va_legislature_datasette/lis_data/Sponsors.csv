@@ -10899,7 +10899,6 @@
 "Carrie E. Coyner              ","H0315","HR723","1" - Chief Patron
 "Carrie E. Coyner              ","H0315","HR724","1" - Chief Patron
 "Carrie E. Coyner              ","H0315","HR725","1" - Chief Patron
-"Scott A. Surovell             ","S0100","HR725","2" - Co-Patron
 "Carrie E. Coyner              ","H0315","HR726","1" - Chief Patron
 "Carrie E. Coyner              ","H0315","HR727","1" - Chief Patron
 "Carrie E. Coyner              ","H0315","HR728","1" - Chief Patron
@@ -12413,6 +12412,7 @@
 "Jeremy S. McPike              ","S0098","SB1317","1" - Chief Patron
 "Jeremy S. McPike              ","S0098","SB1318","1" - Chief Patron
 "Mark D. Sickles               ","H0172","SB1318","2" - Sponsor
+"Mark D. Sickles               ","H0172","SB1318","3" - Sponsor
 "Jeremy S. McPike              ","S0098","SB1319","1" - Chief Patron
 "Joshua E. Thomas              ","H0382","SB1319","2" - Co-Patron
 "Jeremy S. McPike              ","S0098","SB1319","3" - Sponsor
@@ -13159,6 +13159,7 @@
 "Schuyler T. VanValkenburg     ","S0129","SB854","1" - Chief Patron
 "Lashrecse D. Aird             ","S0115","SB854","2" - Chief Co-Patron
 "Joshua E. Thomas              ","H0382","SB854","3" - Sponsor
+"Joshua E. Thomas              ","H0382","SB854","4" - Sponsor
 "Schuyler T. VanValkenburg     ","S0129","SB855","1" - Chief Patron
 "Jennifer B. Boysko            ","S0106","SB855","2" - Co-Patron
 "Barbara A. Favola             ","S0086","SB855","3" - Co-Patron
