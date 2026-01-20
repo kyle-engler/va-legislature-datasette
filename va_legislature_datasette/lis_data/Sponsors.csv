@@ -102,10 +102,13 @@
 "Michael J. Webert             ","H0247","HB1087","1" - Chief Patron
 "Wendell S. Walker             ","H0325","HB1088","1" - Chief Patron
 "Michael J. Webert             ","H0247","HB1089","1" - Chief Patron
+"Terry G. Kilgore              ","H0056","HB1089","2" - Co-Patron
 "Holly M. Seibold              ","H0351","HB109","1" - Chief Patron
 "Michael J. Webert             ","H0247","HB1090","1" - Chief Patron
 "Amy J. Laufer                 ","H0371","HB1091","1" - Chief Patron
 "Phil M. Hernandez             ","H0366","HB1092","1" - Chief Patron
+"Adele Y. McClure              ","H0375","HB1092","2" - Chief Co-Patron
+"Jeion A. Ward                 ","H0173","HB1092","3" - Chief Co-Patron
 "Phil M. Hernandez             ","H0366","HB1093","1" - Chief Patron
 "Amy J. Laufer                 ","H0371","HB1094","1" - Chief Patron
 "JJ Singh                      ","H0385","HB1095","1" - Chief Patron
@@ -138,6 +141,7 @@
 "May Nivar                     ","H0397","HB1116","1" - Chief Patron
 "May Nivar                     ","H0397","HB1117","1" - Chief Patron
 "May Nivar                     ","H0397","HB1118","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","HB1118","2" - Co-Patron
 "May Nivar                     ","H0397","HB1119","1" - Chief Patron
 "Amy J. Laufer                 ","H0371","HB112","1" - Chief Patron
 "JJ Singh                      ","H0385","HB1120","1" - Chief Patron
@@ -238,6 +242,8 @@
 "Phillip A. Scott              ","H0342","HB1190","1" - Chief Patron
 "Irene Shin                    ","H0344","HB1191","1" - Chief Patron
 "Israel D. O'Quinn             ","H0242","HB1192","1" - Chief Patron
+"Karrie K. Delaney             ","H0294","HB1192","2" - Chief Co-Patron
+"John Chilton McAuliff         ","H0395","HB1192","3" - Chief Co-Patron
 "Phillip A. Scott              ","H0342","HB1193","1" - Chief Patron
 "Phillip A. Scott              ","H0342","HB1194","1" - Chief Patron
 "Phillip A. Scott              ","H0342","HB1195","1" - Chief Patron
@@ -248,8 +254,9 @@
 "Joseph P. McNamara            ","H0308","HB12","1" - Chief Patron
 "Mitchell Cornett              ","H0390","HB12","2" - Co-Patron
 "Hyland F. ""Buddy"" Fowler, Jr. ","H0259","HB12","3" - Co-Patron
-"Delores Oates                 ","H0377","HB12","4" - Co-Patron
-"Eric R. Zehr                  ","H0383","HB12","5" - Co-Patron
+"Terry G. Kilgore              ","H0056","HB12","4" - Co-Patron
+"Delores Oates                 ","H0377","HB12","5" - Co-Patron
+"Eric R. Zehr                  ","H0383","HB12","6" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HB120","1" - Chief Patron
 "Wren M. Williams              ","H0348","HB1200","1" - Chief Patron
 "Phillip A. Scott              ","H0342","HB1201","1" - Chief Patron
@@ -327,6 +334,7 @@
 "Jackie H. Glass               ","H0349","HB1261","1" - Chief Patron
 "Jackie H. Glass               ","H0349","HB1262","1" - Chief Patron
 "Kathy K.L. Tran               ","H0305","HB1263","1" - Chief Patron
+"Alfonso H. Lopez              ","H0239","HB1263","2" - Co-Patron
 "Irene Shin                    ","H0344","HB1264","1" - Chief Patron
 "Jackie H. Glass               ","H0349","HB1265","1" - Chief Patron
 "Kathy K.L. Tran               ","H0305","HB1266","1" - Chief Patron
@@ -350,6 +358,7 @@
 "Joshua G. Cole                ","H0314","HB1282","1" - Chief Patron
 "Ellen H. McLaughlin           ","H0350","HB1283","1" - Chief Patron
 "Mark C. Downey                ","H0392","HB1284","1" - Chief Patron
+"Amy J. Laufer                 ","H0371","HB1284","2" - Chief Co-Patron
 "Thomas C. Wright, Jr.         ","H0136","HB1285","1" - Chief Patron
 "Wendell S. Walker             ","H0325","HB1286","1" - Chief Patron
 "Laura Jane Cohen              ","H0355","HB1287","1" - Chief Patron
@@ -368,9 +377,10 @@
 "Karrie K. Delaney             ","H0294","HB1299","1" - Chief Patron
 "Joseph P. McNamara            ","H0308","HB13","1" - Chief Patron
 "Mitchell Cornett              ","H0390","HB13","2" - Co-Patron
-"Ellen H. McLaughlin           ","H0350","HB13","3" - Co-Patron
-"Delores Oates                 ","H0377","HB13","4" - Co-Patron
-"Eric R. Zehr                  ","H0383","HB13","5" - Co-Patron
+"Terry G. Kilgore              ","H0056","HB13","3" - Co-Patron
+"Ellen H. McLaughlin           ","H0350","HB13","4" - Co-Patron
+"Delores Oates                 ","H0377","HB13","5" - Co-Patron
+"Eric R. Zehr                  ","H0383","HB13","6" - Co-Patron
 "Mitchell Cornett              ","H0390","HB130","1" - Chief Patron
 "Mitchell Cornett              ","H0390","HB1300","1" - Chief Patron
 "Joshua E. Thomas              ","H0382","HB1301","1" - Chief Patron
@@ -394,21 +404,57 @@
 "Rodney T. Willett             ","H0327","HB1318","1" - Chief Patron
 "Marty Martinez                ","H0374","HB1319","1" - Chief Patron
 "Adam P. Ebbin                 ","S0085","HB1319","2" - Chief Co-Patron
+"Saddam Azlan Salim            ","S0127","HB1319","3" - Co-Patron
+"Kannan Srinivasan             ","S0133","HB1319","4" - Co-Patron
 "Marcus B. Simon               ","H0264","HB132","1" - Chief Patron
 "Marty Martinez                ","H0374","HB1320","1" - Chief Patron
 "Adam P. Ebbin                 ","S0085","HB1320","2" - Chief Co-Patron
 "Bonita G. Anthony             ","H0353","HB1321","1" - Chief Patron
 "Delores L. McQuinn            ","H0207","HB1322","1" - Chief Patron
 "Karen Keys-Gamarra            ","H0370","HB1322","2" - Co-Patron
+"Lashrecse D. Aird             ","S0115","HB1322","3" - Co-Patron
+"Lamont Bagby                  ","S0114","HB1322","4" - Co-Patron
+" Michael J. Jones             ","S0134","HB1322","5" - Co-Patron
 "Atoosa R. Reaser              ","H0380","HB1323","1" - Chief Patron
 "Lily V. Franklin              ","H0393","HB1324","1" - Chief Patron
+"Anne Ferrell Tata             ","H0345","HB1326","1" - Chief Patron
+"Anne Ferrell Tata             ","H0345","HB1327","1" - Chief Patron
+"Anne Ferrell Tata             ","H0345","HB1328","1" - Chief Patron
+"R. Lee Ware                   ","H0124","HB1329","1" - Chief Patron
 "Marcus B. Simon               ","H0264","HB133","1" - Chief Patron
+"Holly M. Seibold              ","H0351","HB1330","1" - Chief Patron
+"Marcia S. ""Cia"" Price         ","H0284","HB1331","1" - Chief Patron
+"Bonita G. Anthony             ","H0353","HB1332","1" - Chief Patron
+"Michael B. Feggans            ","H0360","HB1333","1" - Chief Patron
+"Michael B. Feggans            ","H0360","HB1334","1" - Chief Patron
+"Scott A. Wyatt                ","H0328","HB1335","1" - Chief Patron
+"Hyland F. ""Buddy"" Fowler, Jr. ","H0259","HB1336","1" - Chief Patron
+"Nadarius E. Clark             ","H0336","HB1337","1" - Chief Patron
 "Marcus B. Simon               ","H0264","HB134","1" - Chief Patron
 "Hyland F. ""Buddy"" Fowler, Jr. ","H0259","HB134","2" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HB1341","2" - Co-Patron
+"Dan I. Helmer                 ","H0317","HB1344","1" - Chief Patron
+"May Nivar                     ","H0397","HB1345","1" - Chief Patron
+"Nadarius E. Clark             ","H0336","HB1346","1" - Chief Patron
+"Laura Jane Cohen              ","H0355","HB1347","1" - Chief Patron
+"Holly M. Seibold              ","H0351","HB1348","1" - Chief Patron
+"John Chilton McAuliff         ","H0395","HB1349","1" - Chief Patron
 "Marcus B. Simon               ","H0264","HB135","1" - Chief Patron
+"Hillary Pugh Kent             ","H0369","HB1350","1" - Chief Patron
+"James A. ""Jay"" Leftwich       ","H0262","HB1351","1" - Chief Patron
+"Laura Jane Cohen              ","H0355","HB1352","1" - Chief Patron
+"Laura Jane Cohen              ","H0355","HB1353","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HB1354","1" - Chief Patron
+"Joshua E. Thomas              ","H0382","HB1355","1" - Chief Patron
+"Kelly K. Convirs-Fowler       ","H0295","HB1356","1" - Chief Patron
+"Delores L. McQuinn            ","H0207","HB1357","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","HB1357","2" - Co-Patron
+"Chris S. Runion               ","H0321","HB1358","1" - Chief Patron
+"Patrick A. Hope               ","H0219","HB1359","1" - Chief Patron
 "David A. Reid                 ","H0301","HB136","1" - Chief Patron
 "Michael B. Feggans            ","H0360","HB137","1" - Chief Patron
 "Shelly A. Simonds             ","H0323","HB138","1" - Chief Patron
+"May Nivar                     ","H0397","HB138","2" - Chief Co-Patron
 "Shelly A. Simonds             ","H0323","HB139","1" - Chief Patron
 "Marcia S. ""Cia"" Price         ","H0284","HB14","1" - Chief Patron
 "Bonita G. Anthony             ","H0353","HB14","2" - Co-Patron
@@ -583,6 +629,8 @@
 "Saddam Azlan Salim            ","S0127","HB215","8" - Co-Patron
 "Dan I. Helmer                 ","H0317","HB216","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HB217","1" - Chief Patron
+"Nadarius E. Clark             ","H0336","HB217","2" - Chief Co-Patron
+"Richard C. ""Rip"" Sullivan, Jr.","H0269","HB217","3" - Chief Co-Patron
 "Delores L. McQuinn            ","H0207","HB218","1" - Chief Patron
 "Karen R. ""Kacey"" Carnegie     ","H0387","HB218","2" - Co-Patron
 "Rozia A. Henson, Jr.          ","H0365","HB218","3" - Co-Patron
@@ -690,12 +738,16 @@
 "Marty Martinez                ","H0374","HB27","9" - Co-Patron
 "May Nivar                     ","H0397","HB27","10" - Co-Patron
 "Kimberly Pope Adams           ","H0399","HB27","11" - Co-Patron
-"Sam Rasoul                    ","H0266","HB27","12" - Co-Patron
-"Irene Shin                    ","H0344","HB27","13" - Co-Patron
+"Marcia S. ""Cia"" Price         ","H0284","HB27","12" - Co-Patron
+"Sam Rasoul                    ","H0266","HB27","13" - Co-Patron
+"Irene Shin                    ","H0344","HB27","14" - Co-Patron
 "Thomas C. Wright, Jr.         ","H0136","HB270","1" - Chief Patron
 "Paul E. Krizek                ","H0281","HB271","1" - Chief Patron
 "Wendell S. Walker             ","H0325","HB272","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HB273","1" - Chief Patron
+"Katrina Callsen               ","H0354","HB273","2" - Chief Co-Patron
+"Phil M. Hernandez             ","H0366","HB273","3" - Chief Co-Patron
+"Patrick A. Hope               ","H0219","HB273","4" - Chief Co-Patron
 "Wendell S. Walker             ","H0325","HB274","1" - Chief Patron
 "Sam Rasoul                    ","H0266","HB275","1" - Chief Patron
 "Terry G. Kilgore              ","H0056","HB276","1" - Chief Patron
@@ -714,6 +766,7 @@
 "Marcia S. ""Cia"" Price         ","H0284","HB279","5" - Co-Patron
 " Michael J. Jones             ","S0134","HB279","6" - Co-Patron
 "Mamie E. Locke                ","S0067","HB279","7" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HB279","8" - Co-Patron
 "Rozia A. Henson, Jr.          ","H0365","HB28","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HB28","2" - Co-Patron
 "Bonita G. Anthony             ","H0353","HB28","3" - Co-Patron
@@ -739,6 +792,10 @@
 "Michael B. Feggans            ","H0360","HB284","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HB285","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HB286","1" - Chief Patron
+"Michael B. Feggans            ","H0360","HB286","2" - Chief Co-Patron
+"Jackie H. Glass               ","H0349","HB286","3" - Chief Co-Patron
+"Marcus B. Simon               ","H0264","HB286","4" - Chief Co-Patron
+"Virgil Thornton               ","H0400","HB286","5" - Chief Co-Patron
 "Shelly A. Simonds             ","H0323","HB287","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HB288","1" - Chief Patron
 "Karen R. ""Kacey"" Carnegie     ","H0387","HB288","2" - Co-Patron
@@ -761,6 +818,10 @@
 "Holly M. Seibold              ","H0351","HB296","1" - Chief Patron
 "Holly M. Seibold              ","H0351","HB297","1" - Chief Patron
 "Delores L. McQuinn            ","H0207","HB298","1" - Chief Patron
+"Lamont Bagby                  ","S0114","HB298","2" - Co-Patron
+" Michael J. Jones             ","S0134","HB298","3" - Co-Patron
+"Mamie E. Locke                ","S0067","HB298","4" - Co-Patron
+"Stella G. Pekarsky            ","S0124","HB298","5" - Co-Patron
 "Dan I. Helmer                 ","H0317","HB299","1" - Chief Patron
 "Destiny LeVere Bolling        ","H0372","HB3","1" - Chief Patron
 "Luke E. Torian                ","H0227","HB30","1" - Chief Patron
@@ -802,16 +863,19 @@
 "Kimberly Pope Adams           ","H0399","HB326","1" - Chief Patron
 "Richard C. ""Rip"" Sullivan, Jr.","H0269","HB327","1" - Chief Patron
 "Richard C. ""Rip"" Sullivan, Jr.","H0269","HB328","1" - Chief Patron
+"Dan I. Helmer                 ","H0317","HB328","2" - Chief Co-Patron
 "Adele Y. McClure              ","H0375","HB329","1" - Chief Patron
 "Joseph P. McNamara            ","H0308","HB33","1" - Chief Patron
 "Adele Y. McClure              ","H0375","HB330","1" - Chief Patron
 "Adele Y. McClure              ","H0375","HB331","1" - Chief Patron
 "Sam Rasoul                    ","H0266","HB332","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HB333","1" - Chief Patron
+"Joshua E. Thomas              ","H0382","HB333","2" - Chief Co-Patron
 "Sam Rasoul                    ","H0266","HB334","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HB334","2" - Co-Patron
-"Barbara A. Favola             ","S0086","HB334","3" - Co-Patron
-"Saddam Azlan Salim            ","S0127","HB334","4" - Co-Patron
+"Marcia S. ""Cia"" Price         ","H0284","HB334","3" - Co-Patron
+"Barbara A. Favola             ","S0086","HB334","4" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HB334","5" - Co-Patron
 "Bonita G. Anthony             ","H0353","HB335","1" - Chief Patron
 "Bonita G. Anthony             ","H0353","HB336","1" - Chief Patron
 "Bonita G. Anthony             ","H0353","HB337","1" - Chief Patron
@@ -969,6 +1033,7 @@
 "Marcus B. Simon               ","H0264","HB448","1" - Chief Patron
 "Marcus B. Simon               ","H0264","HB449","1" - Chief Patron
 "Hyland F. ""Buddy"" Fowler, Jr. ","H0259","HB45","1" - Chief Patron
+"Terry G. Kilgore              ","H0056","HB45","2" - Co-Patron
 "Rodney T. Willett             ","H0327","HB450","1" - Chief Patron
 "Rodney T. Willett             ","H0327","HB451","1" - Chief Patron
 "Rodney T. Willett             ","H0327","HB452","1" - Chief Patron
@@ -1050,9 +1115,11 @@
 "John Chilton McAuliff         ","H0395","HB500","1" - Chief Patron
 "Russet Perry                  ","S0125","HB500","2" - Chief Co-Patron
 "Marty Martinez                ","H0374","HB500","3" - Co-Patron
+"Kannan Srinivasan             ","S0133","HB500","4" - Co-Patron
 "John Chilton McAuliff         ","H0395","HB501","1" - Chief Patron
 "Russet Perry                  ","S0125","HB501","2" - Chief Co-Patron
 "Marty Martinez                ","H0374","HB501","3" - Co-Patron
+"Kannan Srinivasan             ","S0133","HB501","4" - Co-Patron
 "John Chilton McAuliff         ","H0395","HB502","1" - Chief Patron
 "John Chilton McAuliff         ","H0395","HB503","1" - Chief Patron
 "John Chilton McAuliff         ","H0395","HB504","1" - Chief Patron
@@ -1134,7 +1201,8 @@
 "David A. Reid                 ","H0301","HB564","1" - Chief Patron
 "David A. Reid                 ","H0301","HB565","1" - Chief Patron
 "Joseph P. McNamara            ","H0308","HB566","1" - Chief Patron
-"Delores Oates                 ","H0377","HB566","2" - Co-Patron
+"Terry G. Kilgore              ","H0056","HB566","2" - Co-Patron
+"Delores Oates                 ","H0377","HB566","3" - Co-Patron
 "Karen R. ""Kacey"" Carnegie     ","H0387","HB567","1" - Chief Patron
 "Betsy B. Carr                 ","H0212","HB567","2" - Chief Co-Patron
 "Bonita G. Anthony             ","H0353","HB568","1" - Chief Patron
@@ -1192,15 +1260,16 @@
 "May Nivar                     ","H0397","HB6","17" - Co-Patron
 "Kimberly Pope Adams           ","H0399","HB6","18" - Co-Patron
 "Sam Rasoul                    ","H0266","HB6","19" - Co-Patron
-"Marcus B. Simon               ","H0264","HB6","20" - Co-Patron
-"Jeion A. Ward                 ","H0173","HB6","21" - Co-Patron
-"Vivian E. Watts               ","H0108","HB6","22" - Co-Patron
-"Lashrecse D. Aird             ","S0115","HB6","23" - Co-Patron
-"Lamont Bagby                  ","S0114","HB6","24" - Co-Patron
-"Jennifer B. Boysko            ","S0106","HB6","25" - Co-Patron
-"Barbara A. Favola             ","S0086","HB6","26" - Co-Patron
-"Mamie E. Locke                ","S0067","HB6","27" - Co-Patron
-"Saddam Azlan Salim            ","S0127","HB6","28" - Co-Patron
+"Irene Shin                    ","H0344","HB6","20" - Co-Patron
+"Marcus B. Simon               ","H0264","HB6","21" - Co-Patron
+"Jeion A. Ward                 ","H0173","HB6","22" - Co-Patron
+"Vivian E. Watts               ","H0108","HB6","23" - Co-Patron
+"Lashrecse D. Aird             ","S0115","HB6","24" - Co-Patron
+"Lamont Bagby                  ","S0114","HB6","25" - Co-Patron
+"Jennifer B. Boysko            ","S0106","HB6","26" - Co-Patron
+"Barbara A. Favola             ","S0086","HB6","27" - Co-Patron
+"Mamie E. Locke                ","S0067","HB6","28" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HB6","29" - Co-Patron
 "Jeion A. Ward                 ","H0173","HB60","1" - Chief Patron
 "Shelly A. Simonds             ","H0323","HB600","1" - Chief Patron
 "Phil M. Hernandez             ","H0366","HB601","1" - Chief Patron
@@ -1253,8 +1322,10 @@
 "Terry G. Kilgore              ","H0056","HB633","1" - Chief Patron
 "Terry G. Kilgore              ","H0056","HB634","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB635","1" - Chief Patron
+"Irene Shin                    ","H0344","HB635","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB636","1" - Chief Patron
 "Marcia S. ""Cia"" Price         ","H0284","HB636","2" - Chief Co-Patron
+"Irene Shin                    ","H0344","HB636","3" - Chief Co-Patron
 "Katrina Callsen               ","H0354","HB637","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB638","1" - Chief Patron
 "Paul E. Krizek                ","H0281","HB639","1" - Chief Patron
@@ -1277,14 +1348,17 @@
 "C.E. Cliff Hayes, Jr.         ","H0285","HB652","1" - Chief Patron
 "Hillary Pugh Kent             ","H0369","HB653","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB654","1" - Chief Patron
+"Irene Shin                    ","H0344","HB654","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB655","1" - Chief Patron
 "David A. Reid                 ","H0301","HB655","2" - Chief Co-Patron
 "Rodney T. Willett             ","H0327","HB656","1" - Chief Patron
 "Hyland F. ""Buddy"" Fowler, Jr. ","H0259","HB657","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB658","1" - Chief Patron
+"Irene Shin                    ","H0344","HB658","2" - Chief Co-Patron
 "Hillary Pugh Kent             ","H0369","HB659","1" - Chief Patron
 "Michael B. Feggans            ","H0360","HB66","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB660","1" - Chief Patron
+"Irene Shin                    ","H0344","HB660","2" - Chief Co-Patron
 "Rodney T. Willett             ","H0327","HB661","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB662","1" - Chief Patron
 "Rodney T. Willett             ","H0327","HB663","1" - Chief Patron
@@ -1292,17 +1366,23 @@
 "Michelle Lopes Maldonado      ","H0340","HB665","1" - Chief Patron
 "Sam Rasoul                    ","H0266","HB665","2" - Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB667","1" - Chief Patron
+"Irene Shin                    ","H0344","HB667","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB668","1" - Chief Patron
-"Barbara A. Favola             ","S0086","HB668","2" - Co-Patron
+"Irene Shin                    ","H0344","HB668","2" - Chief Co-Patron
+"Barbara A. Favola             ","S0086","HB668","3" - Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB669","1" - Chief Patron
+"Irene Shin                    ","H0344","HB669","2" - Chief Co-Patron
 "Michael B. Feggans            ","H0360","HB67","1" - Chief Patron
 "Phil M. Hernandez             ","H0366","HB67","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB670","1" - Chief Patron
+"Irene Shin                    ","H0344","HB670","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB671","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB672","1" - Chief Patron
+"Irene Shin                    ","H0344","HB672","2" - Chief Co-Patron
 "Ellen H. McLaughlin           ","H0350","HB673","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB674","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB675","1" - Chief Patron
+"Irene Shin                    ","H0344","HB675","2" - Chief Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB676","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB677","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB678","1" - Chief Patron
@@ -1330,7 +1410,6 @@
 "Hillary Pugh Kent             ","H0369","HB697","1" - Chief Patron
 "John Chilton McAuliff         ","H0395","HB698","1" - Chief Patron
 "Eric R. Zehr                  ","H0383","HB699","1" - Chief Patron
-"Michael J. Jones              ","H0368","HB7","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HB7","2" - Co-Patron
 "Karen R. ""Kacey"" Carnegie     ","H0387","HB7","3" - Co-Patron
 "Stacey Annie Carroll          ","H0388","HB7","4" - Co-Patron
@@ -1343,15 +1422,16 @@
 "Karen Keys-Gamarra            ","H0370","HB7","11" - Co-Patron
 "Michelle Lopes Maldonado      ","H0340","HB7","12" - Co-Patron
 "Marty Martinez                ","H0374","HB7","13" - Co-Patron
-"Sam Rasoul                    ","H0266","HB7","14" - Co-Patron
-"Irene Shin                    ","H0344","HB7","15" - Co-Patron
-"Shelly A. Simonds             ","H0323","HB7","16" - Co-Patron
-"Vivian E. Watts               ","H0108","HB7","17" - Co-Patron
-"Jennifer B. Boysko            ","S0106","HB7","18" - Co-Patron
-"Adam P. Ebbin                 ","S0085","HB7","19" - Co-Patron
-"Mamie E. Locke                ","S0067","HB7","20" - Co-Patron
-"Saddam Azlan Salim            ","S0127","HB7","21" - Co-Patron
-"Angelia Williams Graves       ","S0130","HB7","22" - Co-Patron
+"Marcia S. ""Cia"" Price         ","H0284","HB7","14" - Co-Patron
+"Sam Rasoul                    ","H0266","HB7","15" - Co-Patron
+"Irene Shin                    ","H0344","HB7","16" - Co-Patron
+"Shelly A. Simonds             ","H0323","HB7","17" - Co-Patron
+"Vivian E. Watts               ","H0108","HB7","18" - Co-Patron
+"Jennifer B. Boysko            ","S0106","HB7","19" - Co-Patron
+"Adam P. Ebbin                 ","S0085","HB7","20" - Co-Patron
+"Mamie E. Locke                ","S0067","HB7","21" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HB7","22" - Co-Patron
+"Angelia Williams Graves       ","S0130","HB7","23" - Co-Patron
 "Michael B. Feggans            ","H0360","HB70","1" - Chief Patron
 "C.E. Cliff Hayes, Jr.         ","H0285","HB700","1" - Chief Patron
 "Michelle Lopes Maldonado      ","H0340","HB701","1" - Chief Patron
@@ -1556,6 +1636,7 @@
 "Paul E. Krizek                ","H0281","HB856","1" - Chief Patron
 "Rae Cousins                   ","H0356","HB857","1" - Chief Patron
 "Rae Cousins                   ","H0356","HB858","1" - Chief Patron
+"Karrie K. Delaney             ","H0294","HB858","2" - Co-Patron
 "Rae Cousins                   ","H0356","HB859","1" - Chief Patron
 "Amy J. Laufer                 ","H0371","HB86","1" - Chief Patron
 "Rae Cousins                   ","H0356","HB860","1" - Chief Patron
@@ -1680,6 +1761,7 @@
 "Vivian E. Watts               ","H0108","HB958","1" - Chief Patron
 "Vivian E. Watts               ","H0108","HB959","1" - Chief Patron
 "Elizabeth B. Bennett-Parker   ","H0334","HB96","1" - Chief Patron
+"Shelly A. Simonds             ","H0323","HB96","2" - Chief Co-Patron
 "Vivian E. Watts               ","H0108","HB960","1" - Chief Patron
 "Vivian E. Watts               ","H0108","HB961","1" - Chief Patron
 "Leslie Chambers Mehta         ","H0396","HB962","1" - Chief Patron
@@ -1794,7 +1876,6 @@
 "Rozia A. Henson, Jr.          ","H0365","HJ1","27" - Co-Patron
 "Phil M. Hernandez             ","H0366","HJ1","28" - Co-Patron
 "Patrick A. Hope               ","H0219","HJ1","29" - Co-Patron
-"Michael J. Jones              ","H0368","HJ1","30" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HJ1","31" - Co-Patron
 "Paul E. Krizek                ","H0281","HJ1","32" - Co-Patron
 "Amy J. Laufer                 ","H0371","HJ1","33" - Co-Patron
@@ -1845,16 +1926,17 @@
 "Kelly K. Convirs-Fowler       ","H0295","HJ16","1" - Chief Patron
 "Delores L. McQuinn            ","H0207","HJ17","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HJ17","2" - Co-Patron
-"Joshua G. Cole                ","H0314","HJ17","3" - Co-Patron
-"Michael B. Feggans            ","H0360","HJ17","4" - Co-Patron
-"Debra D. Gardner              ","H0361","HJ17","5" - Co-Patron
-"Rozia A. Henson, Jr.          ","H0365","HJ17","6" - Co-Patron
-"Ellen H. McLaughlin           ","H0350","HJ17","7" - Co-Patron
-"Irene Shin                    ","H0344","HJ17","8" - Co-Patron
-"Jennifer B. Boysko            ","S0106","HJ17","9" - Co-Patron
-"Barbara A. Favola             ","S0086","HJ17","10" - Co-Patron
-"Bryce E. Reeves               ","S0088","HJ17","11" - Co-Patron
-"Saddam Azlan Salim            ","S0127","HJ17","12" - Co-Patron
+"Karen R. ""Kacey"" Carnegie     ","H0387","HJ17","3" - Co-Patron
+"Joshua G. Cole                ","H0314","HJ17","4" - Co-Patron
+"Michael B. Feggans            ","H0360","HJ17","5" - Co-Patron
+"Debra D. Gardner              ","H0361","HJ17","6" - Co-Patron
+"Rozia A. Henson, Jr.          ","H0365","HJ17","7" - Co-Patron
+"Ellen H. McLaughlin           ","H0350","HJ17","8" - Co-Patron
+"Irene Shin                    ","H0344","HJ17","9" - Co-Patron
+"Jennifer B. Boysko            ","S0106","HJ17","10" - Co-Patron
+"Barbara A. Favola             ","S0086","HJ17","11" - Co-Patron
+"Bryce E. Reeves               ","S0088","HJ17","12" - Co-Patron
+"Saddam Azlan Salim            ","S0127","HJ17","13" - Co-Patron
 "Delores L. McQuinn            ","H0207","HJ18","1" - Chief Patron
 " Jessica L. Anderson          ","H0386","HJ18","2" - Co-Patron
 "Elizabeth B. Bennett-Parker   ","H0334","HJ18","3" - Co-Patron
@@ -1906,7 +1988,6 @@
 "Phil M. Hernandez             ","H0366","HJ2","27" - Co-Patron
 "Charniele L. Herring          ","H0208","HJ2","28" - Co-Patron
 "Patrick A. Hope               ","H0219","HJ2","29" - Co-Patron
-"Michael J. Jones              ","H0368","HJ2","30" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HJ2","31" - Co-Patron
 "Paul E. Krizek                ","H0281","HJ2","32" - Co-Patron
 "Amy J. Laufer                 ","H0371","HJ2","33" - Co-Patron
@@ -1952,11 +2033,12 @@
 "Sam Rasoul                    ","H0266","HJ23","6" - Co-Patron
 "Irene Shin                    ","H0344","HJ23","7" - Co-Patron
 "Marcia S. ""Cia"" Price         ","H0284","HJ24","1" - Chief Patron
-"Joshua G. Cole                ","H0314","HJ24","2" - Co-Patron
-"Dan I. Helmer                 ","H0317","HJ24","3" - Co-Patron
-"Michelle Lopes Maldonado      ","H0340","HJ24","4" - Co-Patron
-"Sam Rasoul                    ","H0266","HJ24","5" - Co-Patron
-"Irene Shin                    ","H0344","HJ24","6" - Co-Patron
+"Karen R. ""Kacey"" Carnegie     ","H0387","HJ24","2" - Co-Patron
+"Joshua G. Cole                ","H0314","HJ24","3" - Co-Patron
+"Dan I. Helmer                 ","H0317","HJ24","4" - Co-Patron
+"Michelle Lopes Maldonado      ","H0340","HJ24","5" - Co-Patron
+"Sam Rasoul                    ","H0266","HJ24","6" - Co-Patron
+"Irene Shin                    ","H0344","HJ24","7" - Co-Patron
 "Marcia S. ""Cia"" Price         ","H0284","HJ25","1" - Chief Patron
 "Alex Q. Askew                 ","H0311","HJ26","1" - Chief Patron
 "Destiny LeVere Bolling        ","H0372","HJ27","1" - Chief Patron
@@ -1992,7 +2074,6 @@
 "Phil M. Hernandez             ","H0366","HJ3","27" - Co-Patron
 "Charniele L. Herring          ","H0208","HJ3","28" - Co-Patron
 "Patrick A. Hope               ","H0219","HJ3","29" - Co-Patron
-"Michael J. Jones              ","H0368","HJ3","30" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HJ3","31" - Co-Patron
 "Paul E. Krizek                ","H0281","HJ3","32" - Co-Patron
 "Amy J. Laufer                 ","H0371","HJ3","33" - Co-Patron
@@ -2078,7 +2159,6 @@
 "Phil M. Hernandez             ","H0366","HJ4","28" - Co-Patron
 "Charniele L. Herring          ","H0208","HJ4","29" - Co-Patron
 "Patrick A. Hope               ","H0219","HJ4","30" - Co-Patron
-"Michael J. Jones              ","H0368","HJ4","31" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HJ4","32" - Co-Patron
 "Paul E. Krizek                ","H0281","HJ4","33" - Co-Patron
 "Amy J. Laufer                 ","H0371","HJ4","34" - Co-Patron
@@ -2116,6 +2196,7 @@
 "Jackie H. Glass               ","H0349","HJ45","1" - Chief Patron
 "Kathy K.L. Tran               ","H0305","HJ46","1" - Chief Patron
 "Anne Ferrell Tata             ","H0345","HJ47","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","HJ47","2" - Chief Co-Patron
 "Ellen H. McLaughlin           ","H0350","HJ48","1" - Chief Patron
 "Laura Jane Cohen              ","H0355","HJ49","1" - Chief Patron
 "Joseph P. McNamara            ","H0308","HJ5","1" - Chief Patron
@@ -2136,7 +2217,6 @@
 "Phil M. Hernandez             ","H0366","HJ52","13" - Co-Patron
 "Charniele L. Herring          ","H0208","HJ52","14" - Co-Patron
 "Patrick A. Hope               ","H0219","HJ52","15" - Co-Patron
-"Michael J. Jones              ","H0368","HJ52","16" - Co-Patron
 "Karen Keys-Gamarra            ","H0370","HJ52","17" - Co-Patron
 "Paul E. Krizek                ","H0281","HJ52","18" - Co-Patron
 "Destiny LeVere Bolling        ","H0372","HJ52","19" - Co-Patron
@@ -2165,12 +2245,23 @@
 "Nicole Cole                   ","H0389","HJ55","1" - Chief Patron
 "Joshua G. Cole                ","H0314","HJ55","2" - Co-Patron
 "Kimberly Pope Adams           ","H0399","HJ56","1" - Chief Patron
+"James W. Morefield            ","H0224","HJ57","1" - Chief Patron
 "Rozia A. Henson, Jr.          ","H0365","HJ6","1" - Chief Patron
 "Dan I. Helmer                 ","H0317","HJ7","1" - Chief Patron
 "Joshua G. Cole                ","H0314","HJ8","1" - Chief Patron
 "Stacey Annie Carroll          ","H0388","HJ8","2" - Co-Patron
 "Dan I. Helmer                 ","H0317","HJ9","1" - Chief Patron
 "James W. Morefield            ","H0224","HR1","1" - Chief Patron
+"James W. Morefield            ","H0224","HR10","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR11","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR12","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR13","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR14","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR15","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR16","1" - Chief Patron
+"Wendell S. Walker             ","H0325","HR17","1" - Chief Patron
+"Elizabeth R. Guzman           ","H0297","HR18","1" - Chief Patron
+"Elizabeth R. Guzman           ","H0297","HR19","1" - Chief Patron
 "James W. Morefield            ","H0224","HR2","1" - Chief Patron
 "David A. Reid                 ","H0301","HR3","1" - Chief Patron
 "Marty Martinez                ","H0374","HR3","2" - Co-Patron
@@ -2227,6 +2318,7 @@
 "Adam P. Ebbin                 ","S0085","SB130","1" - Chief Patron
 "Jeremy S. McPike              ","S0098","SB130","2" - Chief Co-Patron
 "Paul E. Krizek                ","H0281","SB130","3" - Chief Co-Patron
+"Kannan Srinivasan             ","S0133","SB130","4" - Co-Patron
 "Christie New Craig            ","S0118","SB131","1" - Chief Patron
 "Christie New Craig            ","S0118","SB132","1" - Chief Patron
 "Mamie E. Locke                ","S0067","SB133","1" - Chief Patron
@@ -2243,6 +2335,20 @@
 "Scott A. Surovell             ","S0100","SB141","2" - Chief Co-Patron
 "Ryan T. McDougle              ","S0069","SB142","1" - Chief Patron
 "Ryan T. McDougle              ","S0069","SB143","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB143","2" - Co-Patron
+"Christie New Craig            ","S0118","SB143","3" - Co-Patron
+"Bill DeSteph                  ","S0096","SB143","4" - Co-Patron
+"J.D. ""Danny"" Diggs            ","S0119","SB143","5" - Co-Patron
+"Tara A. Durant                ","S0120","SB143","6" - Co-Patron
+"Timmy French                  ","S0121","SB143","7" - Co-Patron
+"T. Travis Hackworth           ","S0112","SB143","8" - Co-Patron
+"Christopher T. Head           ","S0122","SB143","9" - Co-Patron
+"Tammy Brankley Mulchi         ","S0131","SB143","10" - Co-Patron
+"Mark D. Obenshain             ","S0068","SB143","11" - Co-Patron
+"Mark J. Peake                 ","S0105","SB143","12" - Co-Patron
+"Todd E. Pillion               ","S0111","SB143","13" - Co-Patron
+"William M. Stanley, Jr.       ","S0082","SB143","14" - Co-Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB143","15" - Co-Patron
 "Ryan T. McDougle              ","S0069","SB144","1" - Chief Patron
 "Ryan T. McDougle              ","S0069","SB145","1" - Chief Patron
 "Ryan T. McDougle              ","S0069","SB146","1" - Chief Patron
@@ -2313,6 +2419,7 @@
 "Barbara A. Favola             ","S0086","SB198","1" - Chief Patron
 "Barbara A. Favola             ","S0086","SB199","1" - Chief Patron
 "Lamont Bagby                  ","S0114","SB199","2" - Co-Patron
+"Saddam Azlan Salim            ","S0127","SB199","3" - Co-Patron
 "Jennifer B. Boysko            ","S0106","SB2","1" - Chief Patron
 "R. Creigh Deeds               ","S0062","SB2","2" - Co-Patron
 "Ghazala F. Hashmi             ","S0108","SB2","3" - Co-Patron
@@ -2532,6 +2639,7 @@
 "Jennifer B. Boysko            ","S0106","SB344","1" - Chief Patron
 "Danica A. Roem                ","S0126","SB345","1" - Chief Patron
 "Schuyler T. VanValkenburg     ","S0129","SB346","1" - Chief Patron
+"Todd E. Pillion               ","S0111","SB346","2" - Chief Co-Patron
 "Schuyler T. VanValkenburg     ","S0129","SB347","1" - Chief Patron
 "Jennifer B. Boysko            ","S0106","SB348","1" - Chief Patron
 "Schuyler T. VanValkenburg     ","S0129","SB349","1" - Chief Patron
@@ -2613,6 +2721,7 @@
 "Emily M. Jordan               ","S0116","SB401","1" - Chief Patron
 "Scott A. Surovell             ","S0100","SB402","1" - Chief Patron
 "L. Louise Lucas               ","S0019","SB403","1" - Chief Patron
+"Tammy Brankley Mulchi         ","S0131","SB403","2" - Chief Co-Patron
 "L. Louise Lucas               ","S0019","SB404","1" - Chief Patron
 "L. Louise Lucas               ","S0019","SB405","1" - Chief Patron
 "Jennifer B. Boysko            ","S0106","SB406","1" - Chief Patron
@@ -2637,32 +2746,225 @@
 "Richard H. Stuart             ","S0078","SB422","1" - Chief Patron
 "Russet Perry                  ","S0125","SB423","1" - Chief Patron
 "Russet Perry                  ","S0125","SB424","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB425","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB425","2" - Chief Co-Patron
+"Tammy Brankley Mulchi         ","S0131","SB426","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB427","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB428","1" - Chief Patron
+"Christopher T. Head           ","S0122","SB429","1" - Chief Patron
 "Danica A. Roem                ","S0126","SB43","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB430","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB431","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB432","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB433","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB434","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB435","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB436","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB437","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB438","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB439","1" - Chief Patron
 "Danica A. Roem                ","S0126","SB44","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB440","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB441","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB442","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB443","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB444","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB445","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB446","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB447","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB447","2" - Chief Co-Patron
+"Lamont Bagby                  ","S0114","SB448","1" - Chief Patron
+"Jennifer B. Boysko            ","S0106","SB449","1" - Chief Patron
 "Christie New Craig            ","S0118","SB45","1" - Chief Patron
 "Mamie E. Locke                ","S0067","SB45","2" - Chief Co-Patron
+"Lamont Bagby                  ","S0114","SB450","1" - Chief Patron
+"Emily M. Jordan               ","S0116","SB451","1" - Chief Patron
+"Emily M. Jordan               ","S0116","SB452","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB453","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB454","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB455","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB456","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB457","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB458","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB459","1" - Chief Patron
 "Christie New Craig            ","S0118","SB46","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB460","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB461","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB462","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB463","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB464","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB465","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB466","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB467","1" - Chief Patron
+"David W. Marsden              ","S0080","SB468","1" - Chief Patron
+"David W. Marsden              ","S0080","SB469","1" - Chief Patron
 "Christie New Craig            ","S0118","SB47","1" - Chief Patron
+"David W. Marsden              ","S0080","SB470","1" - Chief Patron
+"David W. Marsden              ","S0080","SB471","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB472","1" - Chief Patron
+"David W. Marsden              ","S0080","SB473","1" - Chief Patron
+"David W. Marsden              ","S0080","SB474","1" - Chief Patron
+"David W. Marsden              ","S0080","SB475","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB476","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB477","1" - Chief Patron
+"David W. Marsden              ","S0080","SB478","1" - Chief Patron
+"David W. Marsden              ","S0080","SB479","1" - Chief Patron
 "Aaron R. Rouse                ","S0113","SB48","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB480","1" - Chief Patron
+"David W. Marsden              ","S0080","SB481","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB482","1" - Chief Patron
+"David W. Marsden              ","S0080","SB483","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB484","1" - Chief Patron
+"David W. Marsden              ","S0080","SB485","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB486","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB487","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB488","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB489","1" - Chief Patron
 "Aaron R. Rouse                ","S0113","SB49","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB490","1" - Chief Patron
+"Stella G. Pekarsky            ","S0124","SB491","1" - Chief Patron
+"Stella G. Pekarsky            ","S0124","SB492","1" - Chief Patron
+"Stella G. Pekarsky            ","S0124","SB493","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB494","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB495","1" - Chief Patron
+"David W. Marsden              ","S0080","SB496","1" - Chief Patron
+"Russet Perry                  ","S0125","SB497","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB498","1" - Chief Patron
+"David W. Marsden              ","S0080","SB499","1" - Chief Patron
 "Mamie E. Locke                ","S0067","SB5","1" - Chief Patron
 "R. Creigh Deeds               ","S0062","SB5","2" - Co-Patron
 "Aaron R. Rouse                ","S0113","SB50","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB500","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB501","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB502","1" - Chief Patron
+"Danica A. Roem                ","S0126","SB503","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB504","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB505","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB506","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB507","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB508","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB509","1" - Chief Patron
 "Aaron R. Rouse                ","S0113","SB51","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB510","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB511","1" - Chief Patron
+"William M. Stanley, Jr.       ","S0082","SB512","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB513","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB514","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB515","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB516","1" - Chief Patron
+"William M. Stanley, Jr.       ","S0082","SB517","1" - Chief Patron
+"Aaron R. Rouse                ","S0113","SB518","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SB518","2" - Chief Co-Patron
+"R. Creigh Deeds               ","S0062","SB519","1" - Chief Patron
 "Aaron R. Rouse                ","S0113","SB52","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB520","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB521","1" - Chief Patron
+"Angelia Williams Graves       ","S0130","SB522","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB523","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB524","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB525","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB526","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB527","1" - Chief Patron
+"William M. Stanley, Jr.       ","S0082","SB528","1" - Chief Patron
+"J.D. ""Danny"" Diggs            ","S0119","SB529","1" - Chief Patron
 "J.D. ""Danny"" Diggs            ","S0119","SB53","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB530","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB531","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB532","1" - Chief Patron
+"David R. Suetterlein          ","S0101","SB533","1" - Chief Patron
+"David R. Suetterlein          ","S0101","SB534","1" - Chief Patron
+"Joseph P. McNamara            ","H0308","SB534","2" - Co-Patron
+"Sam Rasoul                    ","H0266","SB534","3" - Co-Patron
+"Mark D. Obenshain             ","S0068","SB535","1" - Chief Patron
+"Mark D. Obenshain             ","S0068","SB536","1" - Chief Patron
+"Mark D. Obenshain             ","S0068","SB537","1" - Chief Patron
+"David R. Suetterlein          ","S0101","SB538","1" - Chief Patron
+"Mark D. Obenshain             ","S0068","SB539","1" - Chief Patron
 "J.D. ""Danny"" Diggs            ","S0119","SB54","1" - Chief Patron
+"Mark D. Obenshain             ","S0068","SB540","1" - Chief Patron
+"Richard H. Stuart             ","S0078","SB541","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB542","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB543","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB544","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB545","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB546","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB547","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB548","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB549","1" - Chief Patron
 "J.D. ""Danny"" Diggs            ","S0119","SB55","1" - Chief Patron
 "Christie New Craig            ","S0118","SB55","2" - Co-Patron
+"Kannan Srinivasan             ","S0133","SB550","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB551","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB552","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB553","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB554","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB555","1" - Chief Patron
+"Russet Perry                  ","S0125","SB556","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB557","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB558","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB559","1" - Chief Patron
 "Danica A. Roem                ","S0126","SB56","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB560","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB561","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB562","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB563","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB564","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB565","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB566","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB567","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB568","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB569","1" - Chief Patron
 "Schuyler T. VanValkenburg     ","S0129","SB57","1" - Chief Patron
+"Tammy Brankley Mulchi         ","S0131","SB570","1" - Chief Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB571","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB572","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB573","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB574","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB575","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB576","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB577","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB578","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB579","1" - Chief Patron
 "Barbara A. Favola             ","S0086","SB58","1" - Chief Patron
 "Kannan Srinivasan             ","S0133","SB58","2" - Chief Co-Patron
+"Mark J. Peake                 ","S0105","SB580","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB581","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB582","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB583","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB584","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB584","2" - Co-Patron
+"Saddam Azlan Salim            ","S0127","SB585","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB586","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB587","1" - Chief Patron
+"David W. Marsden              ","S0080","SB588","1" - Chief Patron
+"Saddam Azlan Salim            ","S0127","SB589","1" - Chief Patron
 "J.D. ""Danny"" Diggs            ","S0119","SB59","1" - Chief Patron
+"Mark J. Peake                 ","S0105","SB590","1" - Chief Patron
+"Jeremy S. McPike              ","S0098","SB591","1" - Chief Patron
+"Lamont Bagby                  ","S0114","SB592","1" - Chief Patron
+"Russet Perry                  ","S0125","SB593","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB594","1" - Chief Patron
+"Bill DeSteph                  ","S0096","SB595","1" - Chief Patron
+"Jennifer D. Carroll Foy       ","S0117","SB596","1" - Chief Patron
+"Lashrecse D. Aird             ","S0115","SB597","1" - Chief Patron
+"R. Creigh Deeds               ","S0062","SB598","1" - Chief Patron
+"Kannan Srinivasan             ","S0133","SB599","1" - Chief Patron
 "Mamie E. Locke                ","S0067","SB6","1" - Chief Patron
 "Mamie E. Locke                ","S0067","SB60","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB600","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB601","1" - Chief Patron
+"Tara A. Durant                ","S0120","SB602","1" - Chief Patron
+"Bryce E. Reeves               ","S0088","SB603","1" - Chief Patron
+"Tara A. Durant                ","S0120","SB604","1" - Chief Patron
+"Mark D. Obenshain             ","S0068","SB605","1" - Chief Patron
+"Schuyler T. VanValkenburg     ","S0129","SB605","2" - Chief Co-Patron
+"L. Louise Lucas               ","S0019","SB606","1" - Chief Patron
+"L. Louise Lucas               ","S0019","SB607","1" - Chief Patron
+"Todd E. Pillion               ","S0111","SB608","1" - Chief Patron
+"L. Louise Lucas               ","S0019","SB609","1" - Chief Patron
 "Tammy Brankley Mulchi         ","S0131","SB61","1" - Chief Patron
 "Christie New Craig            ","S0118","SB61","2" - Co-Patron
+"L. Louise Lucas               ","S0019","SB610","1" - Chief Patron
 "L. Louise Lucas               ","S0019","SB62","1" - Chief Patron
 "Saddam Azlan Salim            ","S0127","SB63","1" - Chief Patron
 "Barbara A. Favola             ","S0086","SB64","1" - Chief Patron
@@ -2681,6 +2983,24 @@
 "J.D. ""Danny"" Diggs            ","S0119","SB68","1" - Chief Patron
 "Mark J. Peake                 ","S0105","SB69","1" - Chief Patron
 "David R. Suetterlein          ","S0101","SB7","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB7","2" - Co-Patron
+"Christie New Craig            ","S0118","SB7","3" - Co-Patron
+"Bill DeSteph                  ","S0096","SB7","4" - Co-Patron
+"J.D. ""Danny"" Diggs            ","S0119","SB7","5" - Co-Patron
+"Tara A. Durant                ","S0120","SB7","6" - Co-Patron
+"Timmy French                  ","S0121","SB7","7" - Co-Patron
+"T. Travis Hackworth           ","S0112","SB7","8" - Co-Patron
+"Christopher T. Head           ","S0122","SB7","9" - Co-Patron
+"Emily M. Jordan               ","S0116","SB7","10" - Co-Patron
+"Ryan T. McDougle              ","S0069","SB7","11" - Co-Patron
+"Tammy Brankley Mulchi         ","S0131","SB7","12" - Co-Patron
+"Mark D. Obenshain             ","S0068","SB7","13" - Co-Patron
+"Mark J. Peake                 ","S0105","SB7","14" - Co-Patron
+"Todd E. Pillion               ","S0111","SB7","15" - Co-Patron
+"Bryce E. Reeves               ","S0088","SB7","16" - Co-Patron
+"William M. Stanley, Jr.       ","S0082","SB7","17" - Co-Patron
+"Richard H. Stuart             ","S0078","SB7","18" - Co-Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB7","19" - Co-Patron
 "Barbara A. Favola             ","S0086","SB70","1" - Chief Patron
 "Barbara A. Favola             ","S0086","SB71","1" - Chief Patron
 "Kannan Srinivasan             ","S0133","SB72","1" - Chief Patron
@@ -2713,6 +3033,24 @@
 "Saddam Azlan Salim            ","S0127","SB89","1" - Chief Patron
 "Jennifer B. Boysko            ","S0106","SB89","2" - Co-Patron
 "David R. Suetterlein          ","S0101","SB9","1" - Chief Patron
+"Luther Cifers, III            ","S0132","SB9","2" - Co-Patron
+"Christie New Craig            ","S0118","SB9","3" - Co-Patron
+"Bill DeSteph                  ","S0096","SB9","4" - Co-Patron
+"J.D. ""Danny"" Diggs            ","S0119","SB9","5" - Co-Patron
+"Tara A. Durant                ","S0120","SB9","6" - Co-Patron
+"Timmy French                  ","S0121","SB9","7" - Co-Patron
+"T. Travis Hackworth           ","S0112","SB9","8" - Co-Patron
+"Christopher T. Head           ","S0122","SB9","9" - Co-Patron
+"Emily M. Jordan               ","S0116","SB9","10" - Co-Patron
+"Ryan T. McDougle              ","S0069","SB9","11" - Co-Patron
+"Tammy Brankley Mulchi         ","S0131","SB9","12" - Co-Patron
+"Mark D. Obenshain             ","S0068","SB9","13" - Co-Patron
+"Mark J. Peake                 ","S0105","SB9","14" - Co-Patron
+"Todd E. Pillion               ","S0111","SB9","15" - Co-Patron
+"Bryce E. Reeves               ","S0088","SB9","16" - Co-Patron
+"William M. Stanley, Jr.       ","S0082","SB9","17" - Co-Patron
+"Richard H. Stuart             ","S0078","SB9","18" - Co-Patron
+"Glen H. Sturtevant, Jr.       ","S0099","SB9","19" - Co-Patron
 "Barbara A. Favola             ","S0086","SB90","1" - Chief Patron
 "L. Louise Lucas               ","S0019","SB91","1" - Chief Patron
 "Danica A. Roem                ","S0126","SB92","1" - Chief Patron
@@ -2859,7 +3197,16 @@
 "T. Travis Hackworth           ","S0112","SJ35","1" - Chief Patron
 "Bryce E. Reeves               ","S0088","SJ36","1" - Chief Patron
 "Scott A. Surovell             ","S0100","SJ37","1" - Chief Patron
+"T. Travis Hackworth           ","S0112","SJ39","1" - Chief Patron
 "L. Louise Lucas               ","S0019","SJ4","1" - Chief Patron
+"T. Travis Hackworth           ","S0112","SJ40","1" - Chief Patron
+"T. Travis Hackworth           ","S0112","SJ41","1" - Chief Patron
+"Scott A. Surovell             ","S0100","SJ42","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SJ43","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SJ44","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SJ45","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SJ46","1" - Chief Patron
+"Mamie E. Locke                ","S0067","SJ47","1" - Chief Patron
 "Barbara A. Favola             ","S0086","SJ5","1" - Chief Patron
 "Christie New Craig            ","S0118","SJ6","1" - Chief Patron
 "Luther Cifers, III            ","S0132","SJ6","2" - Co-Patron
@@ -2885,8 +3232,12 @@
 "Scott A. Surovell             ","S0100","SJ9","1" - Chief Patron
 "Paul E. Krizek                ","H0281","SJ9","2" - Co-Patron
 "T. Travis Hackworth           ","S0112","SR1","1" - Chief Patron
+"Todd E. Pillion               ","S0111","SR10","1" - Chief Patron
 "William M. Stanley, Jr.       ","S0082","SR2","1" - Chief Patron
 "T. Travis Hackworth           ","S0112","SR2","2" - Co-Patron
 "Mamie E. Locke                ","S0067","SR3","1" - Chief Patron
 "Ghazala F. Hashmi             ","S0108","SR4","1" - Chief Patron
 "Ghazala F. Hashmi             ","S0108","SR5","1" - Chief Patron
+"Timmy French                  ","S0121","SR7","1" - Chief Patron
+"Timmy French                  ","S0121","SR8","1" - Chief Patron
+"T. Travis Hackworth           ","S0112","SR9","1" - Chief Patron
